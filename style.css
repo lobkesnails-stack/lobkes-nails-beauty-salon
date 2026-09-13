@@ -997,9 +997,24 @@ html {
     position: static !important;
   }
 
-  .hero-image-placeholder .herfsttakje,
-  .herfsttakje-behandelingen,
+   .hero-image-placeholder .herfsttakje {
+    display: block;
+    width: 95px;
+    right: -55px;
+    top: -15px;
+  }
+
+  .herfsttakje-behandelingen {
+    display: block;
+    width: 85px;
+    left: 20px;
+    top: 30px;
+  }
+
   .herfsttakje-footer {
-    display: none;
+    display: block;
+    width: 90px;
+    right: 15px;
+    top: 170px;
   }
 }
