@@ -529,6 +529,15 @@ html {
     box-shadow:none;
     overflow: visible;
 }
+.hero-image-placeholder .herfsttakje {
+  position: absolute;
+  top: -20px;
+  right: -115px; /* naast de foto */
+  width: 180px;
+  height: auto;
+  z-index: 3;
+  pointer-events: none;
+}
 
 .hero-image-label {
     position: absolute;
@@ -862,7 +871,7 @@ html {
 }
 
 .back-button:hover {
-  color: #9b625f;
+  color: #9b625f;jpg
 }
 
 .diploma-heading {
@@ -947,4 +956,38 @@ html {
 
 html {
   scroll-behavior: smooth;
+}
+
+.herfsttakje {
+  position: absolute;
+  top: -35px;
+  right: -25px;
+  width: 180px;
+  height: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
+#behandelingen,
+.site-footer {
+  position: relative;
+  overflow: visible;
+}
+
+.herfsttakje-behandelingen {
+  position: absolute;
+  left: 150px;
+  top: 60px;
+  width: 145px;
+  height: auto;
+  pointer-events: none;
+}
+
+.herfsttakje-footer {
+  position: absolute;
+  right: 40px;
+  top: 20px;
+  width: 130px;
+  height: auto;
+  pointer-events: none;
 }
