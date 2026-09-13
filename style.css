@@ -991,3 +991,15 @@ html {
   height: auto;
   pointer-events: none;
 }
+
+@media (max-width: 600px) {
+  header {
+    position: static !important;
+  }
+
+  .hero-image-placeholder .herfsttakje,
+  .herfsttakje-behandelingen,
+  .herfsttakje-footer {
+    display: none;
+  }
+}
